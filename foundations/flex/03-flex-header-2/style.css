@@ -9,11 +9,19 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
+  padding:8px;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.left-section, .right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -27,6 +35,13 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.links{
+  display:flex;
+  margin: 0;
+  padding: 0;
+  gap:16px;
 }
 
 button {
